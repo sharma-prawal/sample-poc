@@ -1,0 +1,32 @@
+import * as React from "react";
+
+import { cn } from "../../lib/utils";
+
+interface ProgressProps extends React.HTMLAttributes<HTMLDivElement> {
+  value: number;
+  indicatorClassName?: string;
+}
+
+function Progress({
+  className,
+  value,
+  indicatorClassName,
+  ...props
+}: ProgressProps) {
+  return (
+    <div
+      className={cn("relative h-2 w-full overflow-hidden rounded-full bg-slate-800", className)}
+      {...props}
+    >
+      <div
+        className={cn(
+          "h-full origin-left rounded-full bg-violet-400 transition-all duration-700 ease-out",
+          indicatorClassName,
+        )}
+        style={{ transform: `translateX(-${100 - value}%)` }}
+      />
+    </div>
+  );
+}
+
+export { Progress };
