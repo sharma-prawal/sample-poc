@@ -2,6 +2,8 @@
 
 > A concept interface for enterprise AI analytics — how machine learning could surface operational intelligence (risk, schedules, configuration health) for data integrations.
 
+**Live:** [sample-poc-smoky.vercel.app](https://sample-poc-smoky.vercel.app)
+
 <p align="center">
   <img src="docs/screenshots/desktop.jpg" width="38%" alt="Screenshot" />
   <img src="docs/screenshots/inside.jpg" width="38%" alt="Screenshot" />
