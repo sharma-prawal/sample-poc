@@ -18,3 +18,7 @@ React · TypeScript · Tailwind CSS · Vite
 npm install
 npm run dev
 ```
+
+## License
+
+Released under the [MIT License](LICENSE).
