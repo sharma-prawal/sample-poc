@@ -55,3 +55,4 @@ storage_state.json
 .release-checkpoints/
 .pnpm-store/
 Thumbs.db
+.vercel
